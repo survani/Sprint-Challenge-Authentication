@@ -1,6 +1,6 @@
 const router = require("express").Router();
 const bcrypt = require("bcryptjs");
-const Users = require("bcryptjs");
+const Users = require("../jokes/model");
 const jsonwebtoken = require("jsonwebtoken");
 
 const { tokenSecret } = require("../config/secrets");
